@@ -24914,6 +24914,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 63.5 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "530f7a09-ec95-4fd5-bc4f-24ccd02188bb")
+		(property "Reference" "TP87"
+			(at 66.04 154.4319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 66.04 156.9719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 58.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbb048d0-86a9-4e5a-bf9d-7d2b1d5b4717")
+		)
+		(instances
+			(project "soundkarte"
+				(path "/3728182d-43da-45de-af39-f660b583c15d"
+					(reference "TP87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 181.61 -2.54 90)
 		(unit 1)
 		(exclude_from_sim no)
