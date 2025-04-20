@@ -8487,7 +8487,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Odd_Even"
+		(property "Value" "Bus Blaster"
 			(at 195.58 -12.7 0)
 			(effects
 				(font
